@@ -1,7 +1,7 @@
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import numpy as np
-from model import DecisionTree
+from RandomForest.randomForest import DecisionTree
 
 data = datasets.load_breast_cancer()
 X, y = data.data, data.target
